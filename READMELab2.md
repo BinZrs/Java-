@@ -2,7 +2,7 @@
 
 FlowerNumber.java 求水仙花数
 
-GaderTranser.java 成绩转换为等级制
+GaderTranser.java 成绩转换为等级
 
 LeapYear.java 求闰年
 
