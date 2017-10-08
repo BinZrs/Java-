@@ -5,4 +5,4 @@ GaderTranser.java 成绩转换为等级制
 
 LeapYear.java 求闰年
 
-PrintShape.java 打印图形
+PrintShape.java 打印一个星形图形
