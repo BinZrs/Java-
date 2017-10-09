@@ -11,8 +11,10 @@
 --
 截图：
 私有方法不能访问，报错。
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/异常1.png)。‘
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/异常1.png)
+
 私有成员不能访问，报错。
 ![](https://github.com/BinZrs/JavaLab/raw/master/Image/异常2.png)
+
 其余权限正常输出
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/正常输出.png "同个包正常输出")
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/正常输出.png)
