@@ -1,7 +1,6 @@
 
 /**
- * 测试单例模式ChocolateBoiler类 仅支持单线程
- * 
+ * 测试单例模式ChocolateBoiler类
  * @author Administrator
  *
  */
@@ -14,6 +13,7 @@ public class TestChocolateBoiler {
 		cho.fill();
 		cho.boil();
 		cho.drain();
+		cho.boil();
 	}
 
 }

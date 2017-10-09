@@ -17,14 +17,14 @@ public class AccessAuthority {
 	}
 
 	protected void printY() {
-		System.out.print(y);
+		System.out.println(y);
 	}
 
 	void printZ() {
-		System.out.print(z);
+		System.out.println(z);
 	}
 
 	private void printFlag() {
-		System.out.print(flag);
+		System.out.println(flag);
 	}
 }

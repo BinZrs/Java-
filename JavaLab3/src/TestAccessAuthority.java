@@ -7,9 +7,9 @@ public class TestAccessAuthority {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AccessAuthority obj = new AccessAuthority();
-		System.out.println(obj.x); 
-		System.out.println(obj.y);
-		System.out.println(obj.z);
+		System.out.println("obj 对象的x="+obj.x); 
+		System.out.println("obj 对象的y="+obj.y);
+		System.out.println("obj 对象的z="+obj.z);
 		//System.out.println(obj.flag); //错误
 		/**
 		 * 编译器提示错误信息
@@ -19,13 +19,15 @@ public class TestAccessAuthority {
 		obj.printX();
 		obj.printY();
 		obj.printZ();
-		//obj.printFlag();  //错误
+		//obj.printFlag(); //错误
 		/**
 		 * printFlag() 为private 只能在本类中访问
 		 * 编译器：提示错误信息如下
 		 * The method printFlag() from the type AccessAuthority is not visible
 		 */
-		
+
+
 	}
+	
 
 }
