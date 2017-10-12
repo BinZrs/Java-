@@ -2,7 +2,7 @@
 实验3附加作业：工厂模式
 ===
     PizzaDemo 为该项目文件，包含7个类
-    *CheesePizza  ClamPizza PepperoniPizza Pizza  PizzaStore  SimplePizzaFactory  Test*
+    CheesePizza  ClamPizza PepperoniPizza Pizza  PizzaStore  SimplePizzaFactory  Test
     其中test为测试类
 ----
 实验结果： 
