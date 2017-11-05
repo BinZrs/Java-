@@ -6,4 +6,4 @@ FCFS  算法  单处理队列实现
 测试主类为MainFCFS  使用SingleQueue和DoubleQueue的方法来完成这个算法
 ----
 结果截图：
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS 单队列.png)
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS单队列.png
