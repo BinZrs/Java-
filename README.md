@@ -30,7 +30,7 @@ SJF两个队列实现结果截图：
 ![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-队列1.png)
 队列2的信息：
 ####
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-队列2.png)
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF 双队列 队列2.png)
 整个任务序列总的信息
 ####
 ![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-总的情况.png)
