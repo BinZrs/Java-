@@ -1,9 +1,42 @@
 # Java 实验四
-FCFS  算法  单处理队列实现
+FCFS算法
 ---
-位于     目录之下 由Init.java Task.java SingleQueue.java DoubleQueue.java MainFCFS.java initFile.txt文件构成
+FCFS单处理队列实现结果截图：
 ----
-测试主类为MainFCFS  使用SingleQueue和DoubleQueue的方法来完成这个算法
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS单队列.png)
+
+FCFS两个队列实现结果截图：
 ----
-结果截图：
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS单队列.png
+队列1的信息：
+####
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS-双队列-队列1.png)
+
+队列2的信息：
+####
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS-双队列-队列2.png)
+整个任务序列总的信息
+####
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/FCFS-双队列-总的情况.png)
+
+SJF算法
+---
+SJF单处理队列实现结果截图：
+----
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF单队列.png)
+SJF两个队列实现结果截图：
+---
+队列1的信息：
+####
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-队列1.png)
+队列2的信息：
+####![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-队列2.png)
+整个任务序列总的信息
+####
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/SJF-双队列-总的情况.png)
+
+
+
+
+
+
+
