@@ -21,7 +21,7 @@ public class SingleQueue{
 			Task tmp = new Task();
 			if(i==0) {
 				tmp = list.get(i);
-				tmp.calculateTime(0);//第1s到达任务只有一个 ID为1那个任务
+				tmp.calculateTime(tmp.arrivalTime);//第1s到达任务只有一个 ID为1那个任务
 			}
 			else {
 				//获得前一个任务完成时，的完成时间，用于判断  已经有多少个任务在这个时间点到达了

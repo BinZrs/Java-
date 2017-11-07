@@ -23,11 +23,11 @@ public class DoubleQueue {
 			Task tmp = new Task();
 			tmp = taskList.get(i);
 			if(i==0) {
-				tmp.calculateTime(0);
+				tmp.calculateTime(tmp.arrivalTime);
 				queue1.set(0, tmp);
 			}
 			else if(i==1) {
-				tmp.calculateTime(0);
+				tmp.calculateTime(tmp.arrivalTime);//第2个任务到达时间为1，第二个任务为队列2开始第一个任务所以开始时间为1
 				queue2.set(0, tmp);
 			}		
 			else {

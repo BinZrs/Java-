@@ -18,7 +18,7 @@ public class SingleQueue {
 		for(int i=0;i<list.size();i++) {
 			Task tmp = new Task();
 			tmp = list.get(i);
-			if(i==0) tmp.calculateTime(0);
+			if(i==0) tmp.calculateTime(tmp.arrivalTime);
 			else tmp.calculateTime(list.get(i-1).finishingTime);
 			list.set(i, tmp);
 		//	System.out.println(tmp.taskID+" 	"+tmp.arrivalTime+" 	"+tmp.serviceTime+" 	"+tmp.startingTime+" 	"+tmp.finishingTime+"	 "+tmp.turnAroundTime+"		"+tmp.weightTurnAround);
