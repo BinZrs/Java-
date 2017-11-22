@@ -1,13 +1,13 @@
-##ÊµÑé5-3 ´ø»º³åÇøµÄIO
-### ÓÃ´ø»º³åºÍ²»´ø»º³åµÄ×Ö·ûÁ÷ÊµÏÖÎÄ¼ş¸´ÖÆ£¬²¢±È½ÏºÄÊ±Çé¿ö¡£
-*Ö÷Òª´úÂë£º*
+## å®éªŒ5-3 å¸¦ç¼“å†²åŒºçš„IO
+### ç”¨å¸¦ç¼“å†²å’Œä¸å¸¦ç¼“å†²çš„å­—ç¬¦æµå®ç°æ–‡ä»¶å¤åˆ¶ï¼Œå¹¶æ¯”è¾ƒè€—æ—¶æƒ…å†µã€‚
+*ä¸»è¦ä»£ç ï¼š*
 ``` java
 	public static long copy() throws IOException {
 		File in = new File("src.txt");
 		File out = new File("copy1.txt");
 		FileReader fr = new FileReader(in);
 		FileWriter fw = new FileWriter(out);
-		int c;`ÊäÈë´úÂë`
+		int c;`è¾“å…¥ä»£ç `
 		long startTime = System.currentTimeMillis();
 		while((c=fr.read())!=-1) {
 			fw.write(c);
@@ -31,5 +31,5 @@
 		return endTime-startTime;
 	}
 ```
-½ØÍ¼£º
-![](https://github.com/BinZrs/JavaLab/raw/master/Image/IOÊ±¼ä±È½Ï.png)
+æˆªå›¾ï¼š
+![](https://github.com/BinZrs/JavaLab/raw/master/Image/IOæ—¶é—´æ¯”è¾ƒ.png)
