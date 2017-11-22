@@ -30,13 +30,14 @@ public class GetFileTree{
 	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		System.out.print("è¯·è¾“å…¥æ–‡ä»¶è·¯å¾„:");
 		Scanner scanner = new Scanner(System.in);
 		String path = new String("");
-		//path = scanner.next(); //nextÓöµ½ tab ¿Õ¸ñ »Ø³µ¼´½áÊø
-		path = scanner.nextLine();//¶Áµ½»Ø³µ²Å½áÊø
+		//path = scanner.next(); //nexté‡åˆ° tab ç©ºæ ¼ å›è½¦å³ç»“æŸ
+		path = scanner.nextLine();//è¯»åˆ°å›è½¦æ‰ç»“æŸ
 		File file = new File(path);
 		if(!file.exists()) {
-			System.out.println(path+"Â·¾¶²»´æÔÚ!");
+			System.out.println(path+"è·¯å¾„ä¸å­˜åœ¨!");
 		}
 		File fileList[] = file.listFiles();
 		ArrayList<File> list1 = new ArrayList<File>();
