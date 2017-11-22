@@ -8,4 +8,5 @@
   4. 扩展以及自学部分：利用JAVA的GUI（Swing等）创建一个简易的文件浏览器。
 
 **结果截图：**
+
  ![](https://github.com/BinZrs/JavaLab/raw/master/Image/获取系统的文件树.png)
