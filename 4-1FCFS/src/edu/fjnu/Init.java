@@ -1,4 +1,4 @@
-package edu.fjnu.FCFS;
+package edu.fjnu;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -6,11 +6,11 @@ import java.io.FileWriter;
 import java.util.Random;
 
 public class Init {
-	int [] ServerTime = {6,2,1,3,9};//·şÎñÊ±¼ä¼¯ºÏ£¬ÈÎÎñµÄ·şÎñÊ±¼äÔÚÕâ¸öÊı×éÖĞËæ»úÈ¡³öÒ»¸ö
-	int taskNum = 100;//ÈÎÎñÊıÁ¿100
+	int [] ServerTime = {6,2,1,3,9};//æœåŠ¡æ—¶é—´é›†åˆï¼Œä»»åŠ¡çš„æœåŠ¡æ—¶é—´åœ¨è¿™ä¸ªæ•°ç»„ä¸­éšæœºå–å‡ºä¸€ä¸ª
+	int taskNum = 100;//ä»»åŠ¡æ•°é‡100
 	int [][] vArray = new int [taskNum][3];	
 	public boolean isExistFile() {
-		File file = new File("initFile.txt");
+		File file = new File("input.txt");
 		if(file.exists() && file.length()!=0)
 			return true;
 		else
@@ -19,7 +19,7 @@ public class Init {
 	
 	public void writeInitFile() {
 		try {
-			File file = new File("initFile.txt");//Éú³É´æ·ÅÈÎÎñÁĞ±íµÄÎÄ¼şµÄ¶ÔÏófile
+			File file = new File("input.txt");//ç”Ÿæˆå­˜æ”¾ä»»åŠ¡åˆ—è¡¨çš„æ–‡ä»¶çš„å¯¹è±¡file
 			FileWriter out = new FileWriter(file);
 			Random r = new Random();
 			String str = "";	
@@ -37,13 +37,13 @@ public class Init {
 	
 	public int[][] readInitFile() {
 		try {
-			File file = new File("initFile.txt");//´æ·ÅÈÎÎñÁĞ±íµÄÎÄ¼şµÄ¶ÔÏófile
+			File file = new File("input.txt");//å­˜æ”¾ä»»åŠ¡åˆ—è¡¨çš„æ–‡ä»¶çš„å¯¹è±¡file
 			FileReader in = new FileReader(file);
 			BufferedReader bufr = new BufferedReader(in);
 			String res = null;
 			int cnt=0;
 			while((res=bufr.readLine())!=null) {
-				String v[] = res.split(" ");	
+				String v[] = res.split("	");	
 				int ans=0;
 				for(String tmp:v) {
 					vArray [cnt][ans] = Integer.parseInt(tmp);
@@ -51,12 +51,6 @@ public class Init {
 				}
 				cnt++;
 			}	
-			//´òÓ¡¶ÁÈ¡µÄÊı×é
-			/*for(int i=0;i<taskNum;i++) {
-				for(int j=0;j<3;j++)
-					System.out.print(vArray[i][j]+" ");
-				System.out.print("\n");
-			}*/
 		} catch (Exception e2) {
 			e2.printStackTrace();
 		}
