@@ -6,12 +6,12 @@
 
 *主要代码：*
 ``` java
-	public static long copy() throws IOException {
+	public static long copy() throws IOException { //不带缓冲区复制文件src.txt
 		File in = new File("src.txt");
 		File out = new File("copy1.txt");
 		FileReader fr = new FileReader(in);
 		FileWriter fw = new FileWriter(out);
-		int c;`输入代码`
+		int c;
 		long startTime = System.currentTimeMillis();
 		while((c=fr.read())!=-1) {
 			fw.write(c);
@@ -19,7 +19,7 @@
 		long endTime = System.currentTimeMillis();
 		return endTime-startTime;	
 	}
-	public static long copyBufferedIo() throws IOException {
+	public static long copyBufferedIo() throws IOException { //带缓冲区复制文件src.txt
 		File in = new File("src.txt");
 		File out = new File("copy2.txt");
 		FileReader fr = new FileReader(in);
