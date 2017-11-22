@@ -83,7 +83,7 @@ public class GetFileTree{
 			Date date = new Date(f.lastModified());
 			DateFormat df = DateFormat.getDateInstance();
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm");
-			String str2=String.format("%-30s%-26s%10s kb\n",f.getName(),sdf.format(date),f.length());
+			String str2=String.format("%-30s%-26s%10s kb\n",f.getName(),sdf.format(date),(int)Math.floor(f.length()/1024.0+0.9999));
 			//System.out.printf("%-30s%-26s%-10s kb\n",f.getName(),sdf.format(date),f.length());
 			System.out.print(str2);
 			out.write(str2);
