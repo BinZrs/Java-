@@ -35,5 +35,5 @@
 		return endTime-startTime;
 	}
 ```
-截图：
+结果截图：
 ![](https://github.com/BinZrs/JavaLab/raw/master/Image/IO时间比较.png)
