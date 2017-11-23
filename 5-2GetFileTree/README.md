@@ -10,3 +10,7 @@
 **结果截图：**
 
  ![](https://github.com/BinZrs/JavaLab/raw/master/Image/获取系统的文件树.png)
+
+**win10系统目录自带排序**
+
+  ![](https://github.com/BinZrs/JavaLab/raw/master/Image/目录系统显示.png)
