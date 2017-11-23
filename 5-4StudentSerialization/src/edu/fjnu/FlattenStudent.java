@@ -4,6 +4,7 @@
 package edu.fjnu;
 
 import java.util.List;
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -30,15 +31,14 @@ public class FlattenStudent {
 		try{
 			FileReader fr = new FileReader(f);
 			BufferedReader bfr = new BufferedReader(fr);
-			String s = null;
-			while((s=bfr.readLine()) != null){
-				String [] str = s.split(" ");
-				Student student = new Student();
-				student.setID(str[0]);
-				student.setName(str[1]);
-				student.setSex(str[2]);
-				studentList.add(student);
-			}		
+			Scanner scanner = new Scanner(bfr);//利用scanner读入文件
+			while(scanner.hasNext()) {
+				Student tmp = new Student();
+				tmp.setID(scanner.next());
+				tmp.setName(scanner.next());
+				tmp.setSex(scanner.next());
+				studentList.add(tmp);		
+			}	
 		}catch(Exception e){
 			e.printStackTrace();
 		}	

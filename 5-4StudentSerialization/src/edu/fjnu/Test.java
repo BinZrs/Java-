@@ -17,7 +17,7 @@ public class Test {
 		String StuFileName = "student.bin";
 		
 		if(fStu.outputStudentObject(readFileName,StuFileName)) {  // 序列化学生对象，并写入student.bin文件。
-			System.out.println("\n成功序列化学生信息，并写入文件"+StuFileName+"\n");
+			System.out.println("成功序列化学生信息，并写入文件"+StuFileName+"\n");
 		}
 		else {
 			System.out.println("序列化失败");
