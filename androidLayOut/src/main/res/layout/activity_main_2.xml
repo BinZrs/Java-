@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#000"
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            android:background="#ff0000"
+            />
+
+        <Button
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORANGE"
+            android:background="#ffa600"
+            android:layout_centerHorizontal="true"
+           />
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW"
+            android:background="#ffff00"
+            android:layout_alignParentRight="true"
+            />
+        <Button
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            android:background="#00ff00"
+            android:layout_below="@+id/red"
+            android:layout_toLeftOf="@id/blue"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            android:textColor="#fff"
+            android:background="#0000ff"
+            android:layout_below="@+id/orange"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDIGO"
+            android:textColor="#fff"
+            android:background="#4a0084"
+            android:layout_below="@+id/yellow"
+            android:layout_toRightOf="@+id/blue"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/VIOLET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIOLET"
+            android:textColor="#000"
+            android:background="#ef82ef"
+            android:layout_below="@+id/blue"
+            />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
