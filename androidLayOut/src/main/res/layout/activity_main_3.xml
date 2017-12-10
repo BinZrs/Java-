@@ -3,25 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="1"
-    android:background="#fff"
+    android:background="#242424"
     >
-    <TableRow
-        android:background="#000">
+
+    <TableRow>
+
         <TextView
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="@string/str1"
-            android:textColor="#fff"
+            android:layout_height="wrap_content"
             android:padding="3dip"
-        />
+            android:text="@string/str1"
+            android:textColor="#fff" />
+
         <TextView
-            android:text="@string/str_ctrl_o"
             android:gravity="right"
             android:padding="3dip"
-            android:textColor="#fff"/>
+            android:text="@string/str_ctrl_o"
+            android:textColor="#fff" />
     </TableRow>
     <TableRow
-        android:background="#000">
+       >
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -39,7 +40,7 @@
             />
     </TableRow>
     <TableRow
-        android:background="#000"
+
         >
         <TextView
             android:layout_height="wrap_content"
@@ -58,8 +59,13 @@
 
             />
     </TableRow>
-    <TableRow android:background="#000"
-        android:layout_marginTop="1dip"
+    <TableRow android:background="#868586">
+        <TextView
+            android:text=""
+            android:layout_height="1dp"
+            />
+    </TableRow>
+    <TableRow
         >
         <TextView
             android:layout_height="wrap_content"
@@ -67,12 +73,9 @@
             android:text="@string/str5"
             android:textColor="#fff"
             android:padding="3dip"
-
             />
     </TableRow>
     <TableRow
-        android:background="#000"
-        android:layout_marginBottom="1dip"
         >
         <TextView
         android:layout_height="wrap_content"
@@ -81,15 +84,21 @@
         android:padding="3dip" android:textColor="#fff"
         />
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:gravity="right"
-            android:text="@string/str_ctrl_e"
-            android:padding="3dip"
-            android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:text="@string/str_ctrl_e"
+        android:padding="3dip"
+        android:textColor="#fff"
+        />
+    </TableRow>
+    <TableRow android:background="#868586">
+        <TextView
+            android:text=""
+            android:layout_height="1dp"
             />
     </TableRow>
-    <TableRow    android:background="#000"
+    <TableRow
         >
         <TextView
             android:layout_height="wrap_content"
