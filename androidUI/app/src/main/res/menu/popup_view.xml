@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".xml_activity">
+    <item android:id="@+id/FontSize"
+        android:title="字体大小"
+        app:showAsAction="never"/>
+    <item android:id="@+id/Menu"
+        android:title="普通菜单选项"
+        app:showAsAction="never"/>
+    <item android:id="@+id/FontColor"
+        android:title="字体颜色"
+        app:showAsAction="never"/>
+</menu>
